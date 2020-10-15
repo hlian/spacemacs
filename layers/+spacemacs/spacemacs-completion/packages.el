@@ -128,7 +128,9 @@
   (with-eval-after-load 'ivy
     (setq ivy-height 15
           ivy-re-builders-alist '((spacemacs/counsel-search . spacemacs/ivy--regex-plus)
-                                  (t . ivy--regex-ignore-order)))
+                                  (counsel-rg . spacemacs/ivy--regex-plus)
+                                  (swiper . ivy--regex-plus)
+                                  (t . ivy--regex-plus)))
     (spacemacs|hide-lighter ivy-mode)
     ;; setup hooks
     (add-hook 'spacemacs-editing-style-hook 'spacemacs//ivy-hjkl-navigation)
