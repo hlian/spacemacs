@@ -50,7 +50,7 @@
                                        ("n"   "narrow/numbers")
                                        ("N"   "navigation")
                                        ("o"   "user bindings")
-                                       ("p"   "projects")
+                                       ("u"   "projects")
                                        ("q"   "quit")
                                        ("r"   "registers/rings/resume")
                                        ("s"   "search/symbol")
@@ -72,7 +72,6 @@
                                        ("tt"  "timeclock")
                                        ("T"   "UI toggles/themes")
                                        ("C-t" "other toggles")
-                                       ("u"   "universal arg")
                                        ("v"   "expand region")
                                        ("w"   "windows")
                                        ("wc"  "centered")
@@ -125,11 +124,11 @@
 ;; ---------------------------------------------------------------------------
 
 ;; Universal argument ---------------------------------------------------------
-(spacemacs/set-leader-keys "u" 'universal-argument)
-(when (memq dotspacemacs-editing-style '(vim hybrid))
-  (define-key universal-argument-map
-    (kbd (concat dotspacemacs-leader-key " u"))
-    'universal-argument-more))
+;; (spacemacs/set-leader-keys "u" 'universal-argument)
+;; (when (memq dotspacemacs-editing-style '(vim hybrid))
+;;   (define-key universal-argument-map
+;;     (kbd (concat dotspacemacs-leader-key " u"))
+;;     'universal-argument-more))
 ;; shell command  -------------------------------------------------------------
 (spacemacs/set-leader-keys "!" 'shell-command)
 ;; kmacros --------------------------------------------------------------------

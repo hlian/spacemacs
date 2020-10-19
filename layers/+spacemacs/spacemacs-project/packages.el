@@ -64,26 +64,26 @@
         "fyL" 'spacemacs/projectile-copy-file-path-with-line
         "fyY" 'spacemacs/projectile-copy-file-path
         ;; Project
-        "p!" 'projectile-run-shell-command-in-root
-        "p&" 'projectile-run-async-shell-command-in-root
-        "p%" 'projectile-replace-regexp
-        "pa" 'projectile-toggle-between-implementation-and-test
-        "pb" 'projectile-switch-to-buffer
-        "pc" 'projectile-compile-project
-        "pd" 'projectile-find-dir
-        "pD" 'projectile-dired
-        "pe" 'projectile-edit-dir-locals
-        "pf" 'projectile-find-file
-        "pF" 'projectile-find-file-dwim
-        "pg" 'projectile-find-tag
-        "pG" 'projectile-regenerate-tags
-        "pI" 'projectile-invalidate-cache
-        "pk" 'projectile-kill-buffers
-        "pp" 'projectile-switch-project
-        "pr" 'projectile-recentf
-        "pR" 'projectile-replace
-        "pT" 'projectile-test-project
-        "pv" 'projectile-vc))
+        "u!" 'projectile-run-shell-command-in-root
+        "u&" 'projectile-run-async-shell-command-in-root
+        "u%" 'projectile-replace-regexp
+        "ua" 'projectile-toggle-between-implementation-and-test
+        "ub" 'projectile-switch-to-buffer
+        "uc" 'projectile-compile-project
+        "ud" 'projectile-find-dir
+        "uD" 'projectile-dired
+        "ue" 'projectile-edit-dir-locals
+        "uf" 'projectile-find-file
+        "uF" 'projectile-find-file-dwim
+        "ug" 'projectile-find-tag
+        "uG" 'projectile-regenerate-tags
+        "uI" 'projectile-invalidate-cache
+        "uk" 'projectile-kill-buffers
+        "up" 'projectile-switch-project
+        "ur" 'projectile-recentf
+        "uR" 'projectile-replace
+        "uT" 'projectile-test-project
+        "uv" 'projectile-vc))
     :config
     (progn
       (projectile-mode)
