@@ -113,7 +113,7 @@
         "srD" 'spacemacs/search-dir-rg-region-or-symbol
         "srf" 'spacemacs/search-rg
         "srF" 'spacemacs/search-rg-region-or-symbol
-        "srp" 'spacemacs/search-project-rg
+        "d" 'spacemacs/search-project-rg
         "srP" 'spacemacs/search-project-rg-region-or-symbol
         "std" 'spacemacs/search-dir-pt
         "stD" 'spacemacs/search-dir-pt-region-or-symbol
