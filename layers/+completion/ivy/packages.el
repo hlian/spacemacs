@@ -56,7 +56,7 @@
     :init
     (progn
       (spacemacs/set-leader-keys
-        dotspacemacs-emacs-command-key 'counsel-M-x
+        dotspacemacs-emacs-command-key 'spacemacs/counsel-find-file
         ;; files
         "ff"  'spacemacs/counsel-find-file
         "fel" 'counsel-find-library
@@ -379,7 +379,7 @@
     :config
     (progn
       (spacemacs/set-leader-keys
-        "ss" 'swiper
+        "/" 'swiper
         "sS" 'swiper-thing-at-point
         "sb" 'swiper-all
         "sB" 'swiper-all-thing-at-point)
