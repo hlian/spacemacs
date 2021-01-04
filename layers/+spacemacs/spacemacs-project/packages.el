@@ -73,7 +73,7 @@
         "ud" 'projectile-find-dir
         "uD" 'projectile-dired
         "ue" 'projectile-edit-dir-locals
-        "uf" 'projectile-find-file
+        "uf" 'fzf
         "uF" 'projectile-find-file-dwim
         "ug" 'projectile-find-tag
         "uG" 'projectile-regenerate-tags
