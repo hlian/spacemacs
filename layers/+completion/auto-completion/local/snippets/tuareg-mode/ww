@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: warnings
+# key: ww
+# --
+(* CR hlian: fix me *)
+[@@@ocaml.warning "-32"]
